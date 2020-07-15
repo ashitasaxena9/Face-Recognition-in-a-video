@@ -3,7 +3,7 @@
 
 # In[1]:
 
-
+# importing the libraries
 from imutils.video import VideoStream
 import face_recognition
 import argparse
@@ -15,7 +15,7 @@ import cv2
 
 # In[ ]:
 
-
+# uploading the video
 a = r"C:\Users\LENOVO\Desktop\face\MuteVideo1594178332085[Trim][Merge].mp4"
 cap = cv2.VideoCapture(a)
 b = r"C:\Users\LENOVO\Desktop\face\cascade\data\haarcascade_frontalface_default.xml"
