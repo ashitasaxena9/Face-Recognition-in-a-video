@@ -3,7 +3,7 @@
 
 # In[1]:
 
-
+# import libraries
 from imutils.video import VideoStream
 import face_recognition
 import argparse
